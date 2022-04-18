@@ -5,8 +5,7 @@ export const Services = (props) => {
         <div className='section-title'>
           <h2>Our Services</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+          Committed to delivering professional and reliable services, PR Plumbing offers a range of services provided by an experienced team with over 20 years of experience:
           </p>
         </div>
         <div className='row'>

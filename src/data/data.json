@@ -1,10 +1,10 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Plumbing done right. Guaranteed",
+    "paragraph": "With over 20 years of experience, PR Plumbing’s certified professionals deliver small company values with large scale capabilities.  "
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "In an industry that depends on reliability and expertise, PR Plumbing promises to deliver plumbing services done right. Our licenced plumbers offer over 20 years of success working within a broad range of facilities to provide the highest levels of quality control and workmanship. Alongside large scale success providing services to commercial retail stores, industrial complexes and beyond, PR Plumbing encapsulates small business values through its family owned and operated business roots.  ",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -68,32 +68,33 @@
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Sewer & Storm Water Repair & Replacement",
+      "text": "." 
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Building & Property Maintenance",
+      "text": "With experience ranging from residential properties and extending to heritage listed buildings, ensure your structural integrity with PR Plumbing."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Hot Water Heater Repair & Replacement",
+      "text": "Keeping up with industry standards and best practice, receive professional advice and services on the solutions best suited to you. "
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
+      "name": "Water & Gas Repair",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Plumbing & Pipe Locating",
+      "text": "Whether you're looking for a kitchen or bathroom renovation or taps and washer service, PR Plumbing offers a range of plumbing solutions done right." 
+
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
+      "name": "Leak Detection",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
   ],
@@ -162,23 +163,33 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Commercial",
+      "text": "Small company values and large scale capabilities don't have to be mutually exclusive. PR Plumbing enters into commercial projects with a deep understanding of the various complexities posed by commercial work ranging from interconnected pipes spanning various levels to vast plumbing systems including sewers, pipes and industrial grade boilers. PR Plumbing provides the expertise required for specialised commercial jobs including maintenance, repairs, and installations."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Residential",
+      "text": "No job is too big or small. From single level to multi-story buildings, PR Plumbing has expertise across the vast spectrum of residential sites including plumbing, drainage and gas."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Industrial",
+      "text": "From the Ferrero Chocolate Factory to Tahmoor Mines, PR Plumbing has worked on plumbing projects on an industrial scale. Our industrial services span from connecting pumps and silos to repair work on machinery." 
+      
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Civil",
+      "text": "Civil plumbing projects involve more comprehensive jobs that require specialised knowledge and expertise. Among PR Plumbing's experience with civil jobs, a recent project undertaken in Newcastle required collaboration with private developers and local Council in order to service storm water mains and infrastructure under local streets and roads."
     }
-  ]
+  ],
+  "Commercial": {
+    "paragraph": "Small company values and large scale capabilities don't have to be mutually exclusive. PR Plumbing enters into commercial projects with a deep understanding of the various complexities posed by commercial work ranging from interconnected pipes spanning various levels to vast plumbing systems including sewers, pipes and industrial grade boilers. PR Plumbing provides the expertise required for specialised commercial jobs including maintenance, repairs, and installations. "
+  },
+  "Residential": {
+    "paragraph": "No job is too big or small. From single level to multi-story buildings, PR Plumbing has expertise across the vast spectrum of residential sites including plumbing, drainage and gas. Our services include:"
+  },
+  "CivilIndustrial": {
+    "paragraph": "From the Ferrero Chocolate Factory to Tahmoor Mines, PR Plumbing has worked on plumbing projects on an industrial scale. Our industrial services include: "
+  }
 }

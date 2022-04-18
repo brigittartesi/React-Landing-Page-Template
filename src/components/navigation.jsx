@@ -1,4 +1,6 @@
+import { useMediaQuery } from 'react-responsive';
 export const Navigation = (props) => {
+  const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
@@ -16,7 +18,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            React Landing Page
+            <img src="img/logo-resized.png" className="img-responsive" alt="" />
           </a>{' '}
         </div>
 
@@ -26,37 +28,47 @@ export const Navigation = (props) => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='#features' className='page-scroll'>
-                Features
-              </a>
-            </li>
-            <li>
-              <a href='#about' className='page-scroll'>
+              <a href='#about' className='page-scroll' data-toggle={isMobile ? "collapse" : ""} data-target={isMobile ? "#bs-example-navbar-collapse-1" : ""}>
                 About
               </a>
             </li>
             <li>
-              <a href='#services' className='page-scroll'>
+              <a href='#services' className='page-scroll' data-toggle={isMobile ? "collapse" : ""} data-target={isMobile ? "#bs-example-navbar-collapse-1" : ""}>
                 Services
               </a>
             </li>
+            {/* <li>
+              <a href='#commercial' className='page-scroll' data-toggle={isMobile ? "collapse" : ""} data-target={isMobile ? "#bs-example-navbar-collapse-1" : ""}>
+                Commercial
+              </a>
+            </li>
             <li>
-              <a href='#portfolio' className='page-scroll'>
+              <a href='#residential' className='page-scroll' data-toggle={isMobile ? "collapse" : ""} data-target={isMobile ? "#bs-example-navbar-collapse-1" : ""}>
+                Residential
+              </a>
+            </li>
+            <li>
+              <a href='#civil-industrial' className='page-scroll' data-toggle={isMobile ? "collapse" : ""} data-target={isMobile ? "#bs-example-navbar-collapse-1" : ""}>
+                Civil & Industrial
+              </a>
+            </li> */}
+            <li>
+              <a href='#portfolio' className='page-scroll' data-toggle={isMobile ? "collapse" : ""} data-target={isMobile ? "#bs-example-navbar-collapse-1" : ""}>
                 Gallery
               </a>
             </li>
             <li>
-              <a href='#testimonials' className='page-scroll'>
+              <a href='#testimonials' className='page-scroll' data-toggle={isMobile ? "collapse" : ""} data-target={isMobile ? "#bs-example-navbar-collapse-1" : ""}>
                 Testimonials
               </a>
             </li>
             <li>
-              <a href='#team' className='page-scroll'>
+              <a href='#team' className='page-scroll' data-toggle={isMobile ? "collapse" : ""} data-target={isMobile ? "#bs-example-navbar-collapse-1" : ""}>
                 Team
               </a>
             </li>
             <li>
-              <a href='#contact' className='page-scroll'>
+              <a href='#contact' className='page-scroll' data-toggle={isMobile ? "collapse" : ""} data-target={isMobile ? "#bs-example-navbar-collapse-1" : ""}>
                 Contact
               </a>
             </li>
